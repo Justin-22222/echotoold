@@ -17,6 +17,7 @@ echo get file(s) from github.com
 echo.                  allfiles.zip 
 echo. [--------------------------------------------] 
 echo            download successful 
+cls
 timeout /t 1 /nobreak >nul 2>nul
 echo wget https://github.com/Justin-22222/Patch-Data-NoPlugin/download/%verinfop%/allfiles.zip 
 echo unzip ./allfiles.zip 
